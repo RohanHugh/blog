@@ -2,23 +2,11 @@ menu:
   Index:
     url: /
     External: false
-    name: 首页
-  Tags:
-    url: /tags
-    External: false
-    name: 标签
-#  Categories:
-#    url: /categories
-#    External: false
-#    name: 分类
-  Archives:
-    url: /archives
-    External: false
-    name: 归档
+    name: Blog
   About:
     url: /about
     External: false
-    name: 关于
+    name: About
 
 # 深色主题
 dark_theme:
@@ -72,7 +60,7 @@ bottom_link:
 
 # 底部显示来源信息
 bottom_source:
-  enable: true
+  enable: false
 
 # 脚注
 footnote:

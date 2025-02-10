@@ -1,0 +1,14 @@
+<%- partial('includes/head') %>
+<body>
+  <div class="container">
+    <%- partial('includes/header') %>
+    <div class="content">
+      <div class="page centered">
+        <h1 class="title"><%= page.title %></h1>
+        <%- page.content %>
+      </div>
+    </div>
+  </div>
+  <%- partial('includes/footer') %>
+</body>
+</html>
