@@ -1,6 +1,9 @@
 /* global window, document */
 'use strict';
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+
 // 菜单
 document.querySelector('.menu-switch').addEventListener('click', function() {
   const menuContainer = document.querySelector('.menu-container');
