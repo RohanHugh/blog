@@ -10,9 +10,9 @@
             <% if (post.summary && post.summary.length > 0) { %>
                 <%- post.summary %>
 			<% } else if (post.content && post.content.length > 0) { %>
-			    <%- strip_html(post.content).substring(0, 120) %>
+			    <%- strip_html(post.content).substring(0, 250) %>
             <% } else if (post.excerpt && post.excerpt.length > 0) { %>
-                <%- strip_html(post.excerpt).substring(0, 120) %>
+                <%- strip_html(post.excerpt).substring(0, 250) %>
             <% } %>
           </div>
       </a>
