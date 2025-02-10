@@ -1,9 +1,10 @@
 /* global window, document */
 'use strict';
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from "@vercel/analytics"
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
+injectSpeedInsights();
 // 菜单
 document.querySelector('.menu-switch').addEventListener('click', function() {
   const menuContainer = document.querySelector('.menu-container');
