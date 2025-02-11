@@ -51,7 +51,7 @@ function addCopyIcons() {
       document.execCommand('copy');
       selection.removeAllRanges();
 
-      this.innerHTML = '<span class="copy-success"> 复制成功</span>';
+      this.innerHTML = '<span class="copy-success">Copied!</span>';
       const that = this;
       setTimeout(() => {
         that.innerHTML = '';
@@ -130,18 +130,15 @@ function lazyload(imgs, data) {
 
       if ((h + s) > img.offsetTop) {
         img.setAttribute('loading', true);
-        const loadImageTimeout = setTimeout(() => {
-          // eslint-disable-next-line no-undef
-          const temp = new Image();
-          const src = img.getAttribute('data-src');
-          temp.src = src;
-          temp.onload = () => {
-            img.src = src;
-            img.removeAttribute('lazyload');
-            img.removeAttribute('loading');
-            clearTimeout(loadImageTimeout);
-          };
-        }, 300);
+        // eslint-disable-next-line no-undef
+        const temp = new Image();
+        const src = img.getAttribute('data-src');
+        temp.src = src;
+        temp.onload = () => {
+          img.src = src;
+          img.removeAttribute('lazyload');
+          img.removeAttribute('loading');
+        };
       }
     }
   });
