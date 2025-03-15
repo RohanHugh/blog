@@ -1,5 +1,5 @@
 ---
-title: 3x Your Browsing Speed on Keyboard with Vimium
+title: Increase Your Browsing Efficiency by 300% on Keyboard with Vimium
 ---
 A couple of months ago a friend of mine showed me Vimium, it's basically [vim](https://www.vim.org/) supported for the browser. I am still fairly new to vim as it is, but being able to browse the web through the keyboard has made it so much faster and less effort. I mainly use 3 to 4 main types of actions, here are the keys I use mostly:
 
