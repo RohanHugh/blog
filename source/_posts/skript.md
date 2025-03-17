@@ -36,4 +36,4 @@ Some of bad practices include the way their arrays works and other concepts, som
 
 ## Conclusion
 
-Overall I could see Skript as a language to help kids kickstart their coding career. I think this should be used everywhere instead of other coding languages, unless you were to think the kid were to be competent enough for that, but most tend not to be. I am now in University and I'm sure I would've loved to have someone tell me about this when I was a kid. Share this post to get the word out there
+Overall I could see Skript as a language to help kids kickstart their coding career. I think this should be used everywhere instead of other coding languages, unless you were to think the kid were to be competent enough for that, but most tend not to be. I am now in University and I'm sure I would've loved to have someone tell me about this when I was a kid. There are already tons of people from all age ranges using it. Share this post to get the word out there.
