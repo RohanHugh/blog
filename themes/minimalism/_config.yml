@@ -3,10 +3,14 @@ menu:
     url: /
     External: false
     name: Blog
-  Resume:
-    url: /resume.pdf
+  CSResume:
+    url: /rohan-hugh-cs-resume.pdf
     External: false
-    name: Resume
+    name: Computer Science Resume
+  EditingResume:
+    url: /rohan-hugh-editing-resume.pdf
+    External: false
+    name: Editing Resume
   About:
     url: /about
     External: false
