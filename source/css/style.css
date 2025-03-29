@@ -1,0 +1,8 @@
+.fake-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fake-link:hover {
+    color: darkblue;
+}

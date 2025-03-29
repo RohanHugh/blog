@@ -1,6 +1,16 @@
 /* global window, document */
 'use strict';
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".copy-text").forEach(function (element) {
+        element.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent any default action
+            let text = this.getAttribute("data-copy");
+            navigator.clipboard.writeText(text).catch(err => console.error("Copy failed", err));
+        });
+    });
+});
+
 // 菜单
 document.querySelector('.menu-switch').addEventListener('click', function() {
   const menuContainer = document.querySelector('.menu-container');
