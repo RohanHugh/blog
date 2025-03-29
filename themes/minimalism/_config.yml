@@ -3,11 +3,14 @@ menu:
     url: /
     External: false
     name: Blog
+  Resume:
+    url: /resume
+    External: false
+    name: Resume
   About:
     url: /about
     External: false
     name: About
-
 
 dark_theme:
   enable: true
